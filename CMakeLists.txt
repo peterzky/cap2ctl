@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.0)
 
-project(caps2esc)
+project(cap2ctl)
 
-add_executable(caps2ctl caps2ctl.c)
-target_compile_options(caps2ctl PRIVATE -Wall -Wextra)
+add_executable(cap2ctl cap2ctl.c)
+target_compile_options(cap2ctl PRIVATE -Wall -Wextra)
 
-install(TARGETS caps2ctl RUNTIME DESTINATION bin)
+install(TARGETS cap2ctl RUNTIME DESTINATION bin)
